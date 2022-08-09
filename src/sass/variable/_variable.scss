@@ -1,0 +1,67 @@
+$white-color: white;
+$black-color: black;
+$gray-color: darkgray;
+$blue-color: blue;
+$red-color: red;
+$yellow-color: yellow;
+$success-color: green;
+
+@mixin borderSet {
+  border-bottom-style: solid;
+  border-bottom-color: $black-color;
+  border-bottom-width: 2px;
+}
+
+@mixin displayInput {
+  display: block;
+  //   border: solid 1px green;
+  text-align: justify;
+  margin-bottom: 10px;
+  margin: 10px 5px;
+}
+@mixin span {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+@mixin input {
+  border: solid 1px rgb(133, 133, 133);
+  padding: 5px 15px;
+  width: 100%;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+@mixin buttonBlue {
+  background-color: rgb(0, 26, 255);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+@mixin buttonHover {
+  opacity: 0.8;
+  background-color: $success-color;
+  transition-duration: 0.4s; //delay
+}
+
+@mixin BarCut {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #646464 inset;
+}
+
+@mixin HoverText {
+  margin: 10px;
+  padding: 8px 15px;
+  font-size: 80px;
+}
+@mixin cardFooter {
+  padding: 10px 15px;
+  border: solid 1px $gray-color;
+}
+ @mixin HoverButton {
+      border-radius: 5px;
+      color: $white-color;
+      text-decoration: none;
+ }

@@ -1,18 +1,21 @@
-# font1
+# vue & css & javascript
 
-## Project setup
+## ติดตั้ง module
 ```
-npm install
+npm install หรือ npm i
 ```
 
-### Compiles and hot-reloads for development
+### ใช่คำสั่ง..
 ```
 npm run serve
+
+[Compiles and minifies for production]
+npm run build
 ```
 
-### Compiles and minifies for production
+### เพิ่มเติม
 ```
-npm run build
+ragination ทำไม่ทันครับ T^T
 ```
 
 ### Lints and fixes files

@@ -2,15 +2,16 @@
 
 ## ติดตั้ง module
 ```
-npm install หรือ npm i
+- npm install หรือ npm i
 ```
 
 ### ใช่คำสั่ง..
 ```
-npm run serve
+- npm run serve
 
 [Compiles and minifies for production]
-npm run build
+
+- npm run build
 ```
 
 ### เพิ่มเติม
@@ -20,7 +21,7 @@ ragination ทำไม่ทันครับ T^T
 
 ### Lints and fixes files
 ```
-npm run lint
+- npm run lint
 ```
 
 ### Customize configuration

@@ -1,4 +1,4 @@
-# vue & css & javascript
+# vue & scss & javascript
 
 ## ติดตั้ง module
 ```
